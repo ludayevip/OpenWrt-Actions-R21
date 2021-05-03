@@ -38,6 +38,11 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-s
 git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 #自动关机插件
 git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
+#luci-app-tn-netports
+git clone https://github.com/tano-systems/luci-app-tn-netports package/luci-app-tn-netports
+#luci-app-onliner
+git clone https://github.com/rufengsuixing/luci-app-onliner package/luci-app-onliner
+
 
 # argon主题
 pushd package/lean
