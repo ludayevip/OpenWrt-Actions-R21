@@ -39,18 +39,15 @@ git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-p
 #自动关机插件
 git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
 #luci-app-tn-netports 接口状态
-#git clone https://github.com/tano-systems/luci-app-tn-netports package/luci-app-tn-netports
+git clone https://github.com/tano-systems/luci-app-tn-netports.git package/luci-app-tn-netports
 #luci-app-onliner luci 界面在线人员
-#git clone https://github.com/rufengsuixing/luci-app-onliner package/luci-app-onliner
+git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app-onliner
+#luci-app-godproxy 去广告
+git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
 
 
-# argon主题 以及添加自定义ipk
+# argon主题 
 pushd package/lean
-git clone https://github.com/tano-systems/luci-app-tn-netports.git
-git clone https://github.com/rufengsuixing/luci-app-onliner.git
-git clone https://github.com/tianiue/luci-app-bypass.git
-git clone https://github.com/project-lede/luci-app-godproxy.git
-git clone https://github.com/sirpdboy/luci-app-advanced.git
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
 popd
