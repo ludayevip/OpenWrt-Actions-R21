@@ -16,4 +16,9 @@ src-git OpenAppFilter https://github.com/Lienol/openwrt-OpenAppFilter
 src-git netports https://github.com/tano-systems/luci-app-tn-netports
 #luci-app-onliner arp实现的在线人员查看的luci界面
 src-git onliner https://github.com/rufengsuixing/luci-app-onliner
+#去广告
+src-git godproxy https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
+
+
+
 
