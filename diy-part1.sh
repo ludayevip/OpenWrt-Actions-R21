@@ -44,8 +44,13 @@ git clone https://github.com/tano-systems/luci-app-tn-netports package/luci-app-
 git clone https://github.com/rufengsuixing/luci-app-onliner package/luci-app-onliner
 
 
-# argon主题
+# argon主题 以及添加自定义ipk
 pushd package/lean
+git clone https://github.com/tano-systems/luci-app-tn-netports.git
+git clone https://github.com/rufengsuixing/luci-app-onliner.git
+git clone https://github.com/tianiue/luci-app-bypass.git
+git clone https://github.com/project-lede/luci-app-godproxy.git
+git clone https://github.com/sirpdboy/luci-app-advanced.git
 rm -rf luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon luci-theme-argon
 popd
