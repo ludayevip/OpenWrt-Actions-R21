@@ -14,4 +14,4 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.1.1/192.168.1.1/g' package/base-files/files/bin/config_generate
 # Modify default PassWord 默认密码 root
-sed -i 's/root::0:0:99999:7:::/root:$1$bSPmrIeo$x8cYCtM/mHpiLu0RglmCZ1:18751:0:99999:7:::/g' package/base-files/files/etc/shadow
+#sed -i 's/root::0:0:99999:7:::/root:$1$bSPmrIeo$x8cYCtM/mHpiLu0RglmCZ1:18751:0:99999:7:::/g' package/base-files/files/etc/shadow
