@@ -42,6 +42,10 @@ git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-aut
 git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
 #l uci-app-bypass
 git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
+wget https://github.com/garypang13/openwrt-packages/tree/master/lua-maxminddb  package/lua-maxminddb
+wget https://github.com/garypang13/smartdns-le package/smartdns-le
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-redir/shadowsocksr-libev-alt/g' {}
+find package/*/ feeds/*/ -maxdepth 2 -path "*luci-app-bypass/Makefile" | xargs -i sed -i 's/shadowsocksr-libev-ssr-server/shadowsocksr-libev-server/g' {}
 # luci-app-aliddns
 git clone https://github.com/honwen/luci-app-aliddns.git package/luci-app-aliddns
 # luci-app-vssr
