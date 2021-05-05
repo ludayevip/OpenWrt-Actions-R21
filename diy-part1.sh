@@ -38,6 +38,22 @@ git clone -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-s
 git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-poweroff
 #自动关机插件
 git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
+# luci-app-godproxy
+git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
+#l uci-app-bypass
+git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
+# luci-app-aliddns
+git clone https://github.com/honwen/luci-app-aliddns.git package/luci-app-aliddns
+# luci-app-serverchan
+git clone https://github.com/tty228/luci-app-serverchan.git
+# luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb.git /package/lean/
+git clone https://github.com/jerrykuku/luci-app-vssr.git /package/lean/
+
+
+
+
+
 
 
 # argon主题 
