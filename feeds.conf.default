@@ -14,17 +14,17 @@ src-git openclash https://github.com/vernesong/OpenClash
 src-git OpenAppFilter https://github.com/Lienol/openwrt-OpenAppFilter
 
 # luci-app-bypass
-src-git https://github.com/tianiue/luci-app-bypass
+src-git bypass https://github.com/tianiue/luci-app-bypass
 
 # luci-app-godproxy
-src-git https://github.com/godros/luci-app-godproxy
+src-git godproxy https://github.com/godros/luci-app-godproxy
 
 # luci-app-vssr
-src-git https://github.com/jerrykuku/lua-maxminddb
-src-git https://github.com/jerrykuku/luci-app-vssr
+src-git maxminddb https://github.com/jerrykuku/lua-maxminddb
+src-git vssr https://github.com/jerrykuku/luci-app-vssr
 
 # luci-app-aliddns
-src-git https://github.com/honwen/luci-app-aliddns
+src-git aliddns https://github.com/honwen/luci-app-aliddns
 
 
 
