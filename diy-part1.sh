@@ -39,14 +39,14 @@ git clone https://github.com/esirplayground/luci-app-poweroff package/luci-app-p
 #自动关机插件
 git clone https://github.com/sirpdboy/luci-app-autopoweroff package/luci-app-autopoweroff
 # luci-app-godproxy
-git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
+git clone https://github.com/godros/luci-app-godproxy package/luci-app-godproxy
 #luci-app-bypass
-git clone https://github.com/tianiue/luci-app-bypass.git package/luci-app-bypass
+git clone https://github.com/tianiue/luci-app-bypass package/luci-app-bypass
 # luci-app-aliddns
-git clone https://github.com/honwen/luci-app-aliddns.git package/luci-app-aliddns
+git clone https://github.com/honwen/luci-app-aliddns package/luci-app-aliddns
 # luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git lede/package/lean/
-git clone https://github.com/jerrykuku/luci-app-vssr.git lede/package/lean/luci-app-vssr
+git clone https://github.com/jerrykuku/lua-maxminddb lede/package/lean/
+git clone https://github.com/jerrykuku/luci-app-vssr lede/package/lean/luci-app-vssr
 
 
 
